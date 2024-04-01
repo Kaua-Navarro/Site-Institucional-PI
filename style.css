@@ -38,7 +38,15 @@ body{
 
 .banner{
     height: 300px;
-    background-image: url(imagens-Site-Inst-PI/bg-jelly-fish-para_outras_pags.png);
+    background-image: url(imagens-Site-Inst-PI/tumblr_lxwvjoYZok1qm6msjo1_500.gif);
+    box-shadow: -20px -20px 100px #000fdaf3;
+    text-shadow: 0 0 5px #000fdaf3,
+                 0 0 10px #0026ff,
+                 0 0 20px #32b9cd,
+                 0 0 30px #93c5ff,
+                 0 0 40px #000fdaf3,
+                 0 0 55px #000fdaf3,
+                 0 0 70px #00c3ff;
 
 }
 
@@ -48,7 +56,7 @@ body{
 
 .banner .container p{
     font-size: 36px;
-    width: 200px;
+    flex-direction: row;
 }
 
 .social{
